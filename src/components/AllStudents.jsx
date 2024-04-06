@@ -53,8 +53,9 @@ const AllStudents = () => {
                     <td>{student.email}</td>
                     <td>
                       <button>
-                        <Link to={"/home/allstudents/viewmore"}> <VscPreview /></Link>
-                       
+                        <Link to={"/home/allstudents/viewmore"} state={student}>
+                          <VscPreview />
+                        </Link>
                       </button>
                     </td>
                     <td>
