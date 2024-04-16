@@ -32,7 +32,7 @@
   position: absolute;
   background-color: rgba(0, 0, 0, 0.119);
 }
-.home .nav {
+.nav {
   padding: 0 20px;
   display: flex;
   align-items: center;
